@@ -29,7 +29,7 @@ p{
 }
 
 .pagina{
-    background-imagen: url('../img/fashion.jpg'); /*Ruta relativa*/
+    background-imagen: url('https://github.com/Jessicalderon0503/Paginaweb/blob/gh-pages/img/fashion.jpg'); /*Ruta relativa*/
     background-size: cover;
     background-attachment: fixed;
 }
