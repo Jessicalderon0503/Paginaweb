@@ -21,13 +21,6 @@ p{
    color: black;
 }
 
-.box{
-    background-image: url(../img/fashion.jpg'); /*Ruta relativa*/
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
 #fijo{
     position: fixed;
     right: 10px;
