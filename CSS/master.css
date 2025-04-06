@@ -29,8 +29,9 @@ p{
 }
 
 .pagina{
-    background-color: black; /* Cambia el fondo a negro */
-    color: white; /* Cambia el color del texto a blanco */
+    background-image: url('../img/fashion.jpg'); /*Ruta relativa*/
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 a{
