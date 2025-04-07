@@ -28,17 +28,11 @@ p{
 }
 
 .pagina{
-    background-image: fashion.jpg; /*Ruta relativa*/
+    background-image: "fashion.jpg"; /*Ruta relativa*/
     background-size: cover;
     background-attachment: fixed;
 }
 
-body {
-  heigh:665px;
-  background-image: "fashion.jpg";
-  background-repeat: repeat-y;
-  background-size: 10rem;
-}
 a{
     text-decoration: none;
     color: black;
