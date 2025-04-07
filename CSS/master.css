@@ -5,8 +5,8 @@
 p{
     font-size: 20px;
     text-align: justify;
-    color: blue;
-    background-color: aqua;
+    color: white;
+    background-color: white;
 }
 
 #parrafo2{
@@ -18,9 +18,8 @@ p{
    font-size: 25px;
    text-align: justify;
    background-color: tomato; 
-   color: black;
+   color: white;
 }
-
 
 #fijo{
     position: fixed;
@@ -29,7 +28,7 @@ p{
 }
 
 .pagina{
-    background-image: fashion.jpg; /*Ruta relativa*/
+    background-image: url("fashion.jpdg"); /*Ruta relativa*/
     background-size: cover;
     background-attachment: fixed;
 }
@@ -82,7 +81,7 @@ label{
     font-family: Arial, Helvetica, sans-serif;
 }
 input{
-    color: blue;
+    color: white;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -101,6 +100,7 @@ input{
     margin-top: 20px;
     text-align: center;
 }
+
 
 
 
