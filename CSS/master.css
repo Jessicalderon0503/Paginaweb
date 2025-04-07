@@ -28,7 +28,7 @@ p{
 }
 
 .pagina{
-    background-image: "fashion.jpg"; /*Ruta relativa*/
+    background-image: url("fashion.jpg"); /*Ruta relativa*/
     background-size: cover;
     background-attachment: fixed;
 }
