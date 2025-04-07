@@ -28,7 +28,7 @@ p{
 }
 
 .pagina{
-    background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png""); /*Ruta relativa*/
+    background-image: url("fashion.jpdg"); /*Ruta relativa*/
     background-size: cover;
     background-attachment: fixed;
 }
