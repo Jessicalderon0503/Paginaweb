@@ -28,7 +28,7 @@ p{
 }
 
 .pagina{
-    background-image: url("fashion.jpg"); /*Ruta relativa*/
+    background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png""); /*Ruta relativa*/
     background-size: cover;
     background-attachment: fixed;
 }
