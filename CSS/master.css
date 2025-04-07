@@ -35,7 +35,7 @@ p{
 
 body {
   heigh:665px;
-  background-image: fashion.jpg;;
+  background-image: "fashion.jpg";
   background-repeat: repeat-y;
   background-size: 10rem;
 }
