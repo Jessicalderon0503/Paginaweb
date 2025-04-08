@@ -1,0 +1,153 @@
+
+
+h1{
+    color:rgb(255, 255, 255);
+
+}
+h2{
+    color:green
+}
+h3{
+    color:orange
+}   
+
+
+/*Seleccion por ID, Solo se puede usar en ID del html*/
+#enc-2{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Seleccion por clase. Crear clase, se puede usar en clase del html*/
+.enc-1{
+    color:rgb(22, 22, 105);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(246, 153, 153);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+a{
+
+    text-decoration: none;/*Quitar subrayado*/
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);/*Color al pasar el mouse*/
+    background-color: rgb(246, 153, 153);/*Color de fondo al pasar el mouse*/
+    font-size: 25px;/*Tamaño de letra al pasar el mouse*/
+    font-weight: bold;/*Negrita al pasar el mouse*/
+    text-decoration: none;/*Quitar subrayado al pasar el mouse*/
+}
+
+
+.header{
+
+    background-color:#004aad;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px; /*Espacio entre el texto y el borde*/
+}
+
+.menu{
+    background-color: #fbfbfb;
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    height: 50px auto; /*Altura del menu*/
+    width: 90%; /*Ancho del menu*/
+    margin: 20px auto; /*Espacio entre el texto y el borde*/
+    border-radius: 30px; /*Esquinas redondeadas*/
+    align-items: center;
+    text-align: center;
+    justify-content: center; /* Centra horizontalmente */
+    padding: 0;
+    display: flex; /* Usar flexbox para centrar el contenido */
+    gap: 20px; /* Espacio entre los elementos del menú */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    flex: 1; /* <<< Distribuye el ancho de forma equitativa */
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #e0e0e0;
+    border-radius: 30px;
+}
+
+
+.contenido{                                                
+
+    font-family: 'Luxurious Roman', serif !important;
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-left: 10%;
+    overflow-wrap: break-word;
+    font-size: clamp(12px, 2.5vw, 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.imagenes{                                                
+
+    float: left; /*Hacer que los divs floten a la izquierda*/
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+
+.contenido2{
+    background-color: #fbfbfb;
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand',Arial, Helvetica, sans-serif;
+    font-size:auto;
+    height: auto; /*Altura del menu*/
+    width: 50%; /*Ancho del menu*/
+    margin-top: 70px; /*Espacio entre el texto y el borde*/
+    
+    border-radius: 20px; /*Esquinas redondeadas*/
+    align-items: center;
+    text-align: center;
+    justify-content: center; /* Centra horizontalmente */
+    padding: 0;
+    float: left; /*Hacer que los divs floten a la izquierda*/
+    display: flex; /* Usar flexbox para centrar el contenido */
+}
+
+.footer{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:auto;
+    height: auto; /*Altura del menu*/
+    width: 50%; /*Ancho del menu*/
+    margin-top: 70px; /*Espacio entre el texto y el borde*/
+    margin-left:30%; /*Espacio entre el texto y el borde*/
+    border-radius: 20px; /*Esquinas redondeadas*/
+    align-items: center;
+    text-align: center;
+    justify-content: center; /* Centra horizontalmente */
+    padding: 0;
+    float: left; /*Hacer que los divs floten a la izquierda*/
+}
