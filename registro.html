@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Servicios de Ingeniería</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>SERVICIOS DE INGENIERÍA</h1>
+    </div>
+    
+    <div class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="servicios-destacados.html">Servicios Destacados</a>
+        <a href="testimonios.html">Testimonios</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="registro.html">Registro</a>
+        <a href="login.html">Login</a>
+    </div>
+    
+    <div class="container" style="max-width: 600px;">
+        <div class="section">
+            <h2 class="section-title">Registro de Usuario</h2>
+            <p>Crea una cuenta para acceder a contenido exclusivo y mantenerte informado sobre nuestros servicios.</p>
+        </div>
+        
+        <div class="card">
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Nombre completo:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Tu nombre completo" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" placeholder="Crea una contraseña segura" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirm-password">Confirmar contraseña:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirma tu contraseña" required>
+                </div>
+                
+                <input type="submit" value="Registrar">
+            </form>
+            
+            <div style="margin-top: 20px; text-align: center;">
+                <p>¿Ya tienes una cuenta? <a href="login.html">Inicia sesión aquí</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2025 Servicios de Ingeniería. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
